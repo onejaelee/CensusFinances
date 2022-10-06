@@ -6,3 +6,4 @@ Compiles US Census Bureau's State &amp; Local Government Finance Historical Data
 * ```formatter_pickle.py``` alters CoG data and fixes FIPS Code-State and UniqueID into fixed length strings.
 * ```cog_names.py``` reads UserGuide for CoG data to create a dictionary that connects Finance Codes to its corresponding full name.
 * ```connect_cog.py``` bridges 1967-2017 PID formatted data to 2018-2019 GID formatted data. It also fills in gaps in information in fips data where applicable.
+* ```id_map.py```Creates a dictionary of CoG IDs as keys and FIPS State code as values. Corresponds CoG keys (corresponding to a government entity) to a specific state.
