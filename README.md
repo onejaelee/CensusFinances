@@ -1,6 +1,13 @@
 # CensusFinances
 Compiles US Census Bureau's State &amp; Local Government Finance Historical Datasets spanning back to 1967 into DataFrames
 
+#### Public datasets can be found from the following links
+
+2020-1993 will show up for each year named "Public Use Files": https://www.census.gov/programs-surveys/gov-finances/data/datasets.html
+1967-2012 under filename "_IndFin_1967-2012": https://www.census.gov/programs-surveys/gov-finances/data/historical-data.html
+
+2020-1993 and 1967-2012 have two different ways of formatting the CoG data and can be merged using ```connect_cog.py```
+
 #### Census of Governments (cog)
 * ```create_censusofgovernment.py``` assembles and outputs the CoG data. Produces basic summary statistics.
 * ```formatter_pickle.py``` alters CoG data and fixes FIPS Code-State and UniqueID into fixed length strings.
