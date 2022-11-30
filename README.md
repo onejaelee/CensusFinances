@@ -1,3 +1,7 @@
+One Jae Lee
+
+Contact: ol2217@columbia.edu
+
 # CensusFinances
 Compiles US Census Bureau's State &amp; Local Government Finance Historical Datasets spanning back to 1967 into DataFrames
 
